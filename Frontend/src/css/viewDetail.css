@@ -1,0 +1,22 @@
+.flex-container{
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+
+}
+.item-div{
+    width: 200px;
+    height: 250px;
+    border-radius: 20%;
+    background-color: azure;
+    margin: 20px;
+}
+
+.item-div img{
+
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    border-radius: 20%;
+
+}

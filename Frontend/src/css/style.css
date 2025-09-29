@@ -1,0 +1,10 @@
+.main-div{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+body{
+    background: linear-gradient( rgb(144, 195, 212) , rgb(177, 216, 155));
+}

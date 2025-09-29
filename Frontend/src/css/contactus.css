@@ -1,0 +1,44 @@
+ .box {
+     display: flex;
+     height: 800px;
+     width: 100%;
+     background-image: linear-gradient(to right, rgb(198, 227, 111), rgb(84, 134, 194));
+
+
+ }
+
+ .footer {
+ background-color: #4e5351;
+ margin: 2px;
+
+ 
+ }
+
+ .footer p {
+     font-size: 0.95rem;
+ }
+
+ .scroll-text-container {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #1a237e;
+  color: white;
+  padding: 12px;
+}
+
+.scroll-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 25s linear infinite;
+  font-size: 18px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
